@@ -1,0 +1,9 @@
+/node_modules/
+/.idea/
+/src/
+/tmp/
+/jest.config.json
+/rollup.config.js
+/yarn.lock
+/yarn-error.log
+/.gitignore

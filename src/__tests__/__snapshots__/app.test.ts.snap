@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Boolean Queries index posting list combinedNormalIndex 1`] = `
+Array [
+  Object {
+    "docId": 3,
+    "index": 5,
+    "term": "at",
+  },
+  Object {
+    "docId": 1,
+    "index": 2,
+    "term": "caesar",
+  },
+  Object {
+    "docId": 2,
+    "index": 2,
+    "term": "caesar",
+  },
+  Object {
+    "docId": 1,
+    "index": 9,
+    "term": "end",
+  },
+  Object {
+    "docId": 2,
+    "index": 3,
+    "term": "father",
+  },
+  Object {
+    "docId": 3,
+    "index": 1,
+    "term": "father",
+  },
+  Object {
+    "docId": 1,
+    "index": 5,
+    "term": "granddaughter",
+  },
+  Object {
+    "docId": 2,
+    "index": 0,
+    "term": "it",
+  },
+  Object {
+    "docId": 1,
+    "index": 8,
+    "term": "marriage",
+  },
+  Object {
+    "docId": 1,
+    "index": 3,
+    "term": "marry",
+  },
+  Object {
+    "docId": 1,
+    "index": 0,
+    "term": "on",
+  },
+  Object {
+    "docId": 3,
+    "index": 3,
+    "term": "open",
+  },
+  Object {
+    "docId": 1,
+    "index": 4,
+    "term": "pompeia",
+  },
+  Object {
+    "docId": 3,
+    "index": 2,
+    "term": "relationship",
+  },
+  Object {
+    "docId": 3,
+    "index": 6,
+    "term": "rome",
+  },
+  Object {
+    "docId": 2,
+    "index": 1,
+    "term": "rumor",
+  },
+  Object {
+    "docId": 2,
+    "index": 5,
+    "term": "s",
+  },
+  Object {
+    "docId": 1,
+    "index": 10,
+    "term": "scandal",
+  },
+  Object {
+    "docId": 3,
+    "index": 4,
+    "term": "secret",
+  },
+  Object {
+    "docId": 2,
+    "index": 4,
+    "term": "servilia",
+  },
+  Object {
+    "docId": 2,
+    "index": 6,
+    "term": "son",
+  },
+  Object {
+    "docId": 3,
+    "index": 0,
+    "term": "son",
+  },
+  Object {
+    "docId": 1,
+    "index": 6,
+    "term": "sulla",
+  },
+  Object {
+    "docId": 1,
+    "index": 7,
+    "term": "their",
+  },
+  Object {
+    "docId": 1,
+    "index": 1,
+    "term": "turn",
+  },
+]
+`;
+
+exports[`Boolean Queries index posting list index 1`] = `
+Object {
+  "at": Array [
+    3,
+  ],
+  "caesar": Array [
+    1,
+    2,
+  ],
+  "end": Array [
+    1,
+  ],
+  "father": Array [
+    2,
+    3,
+  ],
+  "granddaughter": Array [
+    1,
+  ],
+  "it": Array [
+    2,
+  ],
+  "marriage": Array [
+    1,
+  ],
+  "marry": Array [
+    1,
+  ],
+  "on": Array [
+    1,
+  ],
+  "open": Array [
+    3,
+  ],
+  "pompeia": Array [
+    1,
+  ],
+  "relationship": Array [
+    3,
+  ],
+  "rome": Array [
+    3,
+  ],
+  "rumor": Array [
+    2,
+  ],
+  "s": Array [
+    2,
+  ],
+  "scandal": Array [
+    1,
+  ],
+  "secret": Array [
+    3,
+  ],
+  "servilia": Array [
+    2,
+  ],
+  "son": Array [
+    2,
+    3,
+  ],
+  "sulla": Array [
+    1,
+  ],
+  "their": Array [
+    1,
+  ],
+  "turn": Array [
+    1,
+  ],
+}
+`;
+
+exports[`Boolean Queries index posting list tokens 1`] = `
+Array [
+  Object {
+    "docId": 1,
+    "index": 0,
+    "term": "on",
+  },
+  Object {
+    "docId": 1,
+    "index": 1,
+    "term": "turn",
+  },
+  Object {
+    "docId": 1,
+    "index": 2,
+    "term": "caesar",
+  },
+  Object {
+    "docId": 1,
+    "index": 3,
+    "term": "marry",
+  },
+  Object {
+    "docId": 1,
+    "index": 4,
+    "term": "pompeia",
+  },
+  Object {
+    "docId": 1,
+    "index": 5,
+    "term": "granddaughter",
+  },
+  Object {
+    "docId": 1,
+    "index": 6,
+    "term": "sulla",
+  },
+  Object {
+    "docId": 1,
+    "index": 7,
+    "term": "their",
+  },
+  Object {
+    "docId": 1,
+    "index": 8,
+    "term": "marriage",
+  },
+  Object {
+    "docId": 1,
+    "index": 9,
+    "term": "end",
+  },
+  Object {
+    "docId": 1,
+    "index": 10,
+    "term": "scandal",
+  },
+]
+`;
+
+exports[`Proximity Queries index index 1`] = `
+Object {
+  "asdds": Object {
+    "3": Array [
+      0,
+    ],
+  },
+  "at": Object {
+    "1": Array [
+      1,
+    ],
+    "2": Array [
+      7,
+    ],
+  },
+  "caesar": Object {
+    "1": Array [
+      0,
+    ],
+    "2": Array [
+      6,
+    ],
+  },
+  "header.and": Object {
+    "2": Array [
+      0,
+    ],
+  },
+  "header.at": Object {
+    "2": Array [
+      4,
+    ],
+  },
+  "header.caesar": Object {
+    "2": Array [
+      3,
+    ],
+  },
+  "header.have": Object {
+    "2": Array [
+      2,
+    ],
+  },
+  "header.we": Object {
+    "2": Array [
+      1,
+    ],
+  },
+  "header.wed": Object {
+    "2": Array [
+      5,
+    ],
+  },
+  "wed": Object {
+    "1": Array [
+      2,
+    ],
+  },
+}
+`;
