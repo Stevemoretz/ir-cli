@@ -1,7 +1,7 @@
 {
   "name": "@steve-moretz/ir-cli",
   "description": "Central Framework's Cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "UNLICENSED",
   "type": "module",
   "main": "./dist/ir-cli.js",
