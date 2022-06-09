@@ -6,7 +6,9 @@
 
 A Basic tool, for educational purposes.
 
-Supports :
+![NPM](./screenshot.png)
+
+## Features
 
 1. Posting list indexing via lemmatization and ...
 2. Skip list indexing...
