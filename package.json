@@ -22,7 +22,7 @@
     "npm:upgrade": "npx npm-check-updates -iu",
     "refresh": "rm -rf ./node_modules ./package-lock.json && npm install",
     "start": "npm run build -- --watch",
-    "test": "sudo npm i -g && ir-cli",
+    "test": "jest",
     "execute": "node ./dist/ir-cli.js",
     "format": "eslint \"**/*.{ts,js}\" --fix",
     "lint": "eslint \"**/*.{ts,js}\"",
